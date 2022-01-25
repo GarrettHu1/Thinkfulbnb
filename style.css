@@ -9,7 +9,6 @@ h2 {
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
-  font-weight: bold;
 }
 
 h3 {
@@ -127,6 +126,8 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  justify-content: center;
+  max-width: 500px;
 }
 
 
@@ -163,13 +164,19 @@ section.alternate-background {
   margin-right: 20px;;
 }
 
-
-.form-item{
-  display: inline-flex;
+form{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
 }
 
-form button{
-  width: 100px;
+.form-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.forms{
+  display: flex;
 }
 
 .twoIdeas{
